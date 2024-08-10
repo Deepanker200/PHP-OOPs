@@ -24,6 +24,8 @@ $c2= new calculation();
 $c2->a = 50;
 $c2->b = 35;
 
+
+
 echo "Sum of 1st: " .$c1->sum(). "<br>";
 echo "Sum of 2nd: " .$c2->sum();
 

@@ -32,9 +32,9 @@ class manager extends employee{
         $this->totalSalary=$this->salary + $this->ta + $this->phone;
 
         echo "<h3>Manager Profile</h3>";
-        echo "Employee Name :" . $this->name."<br>";
-        echo "Employee Age :" . $this->age."<br>";
-        echo "Employee Salary :" . $this->salary."<br>";
+        echo "Manager Name :" . $this->name."<br>";
+        echo "Manager Age :" . $this->age."<br>";
+        echo "Manager Salary :" . $this->totalSalary."<br>";
     }
 
 }
